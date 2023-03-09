@@ -1,0 +1,74 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu site</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header id="cabecalho">
+    <h1>STN</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#links">Portfolio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="container">
+    <section id="profile">
+      <img src="./assets/avatar-dark.png" alt="Avatar com touca, óculos com a língua pra fora.">
+      <p>@claudiostn</p>
+    </section>
+
+    <div id="switch" onclick="toggleMode()">
+      <button></button>
+      <span></span>
+    </div>
+
+    <section id="sobre">
+      <h2>Sobre mim</h2><br>
+      <p>Oi, meu nome é Cláudio. Sou apenas um estudante brasileiro que gosta de web design, programação, jogos, desenho, basquete, skate e um pouquinho de leitura.</p><br>
+      <p>Fiz esse site no dia 21 de fevereiro de 2023 para testar meus conhecimentos em HTML e CSS.</p><br>
+    </section>
+
+    <section id="links">
+      <h2>Portfolio</h2>
+      <ul>
+        <li><a href="#" target="_blank">Em breve</a></li>
+        <li><a href="#" target="_blank">Em breve</a></li>
+        <li><a href="#" target="_blank">Em breve</a></li>
+      </ul>
+    </section>
+
+    <section id="contato">
+      <a href="#" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+      <a href="#" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+      <a href="#" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+      <a href="#" target="_blank">
+        <ion-icon name="mail"></ion-icon>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&#169 Cláudio 2023</p>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
