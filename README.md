@@ -4,4 +4,4 @@
 13/03/2023
 - Mudei o layout do site com flexbox
 - Adicionei responsividade ao site com media queries
-- Adicionei uma imagem com animacção na seção "Sobre mim"
+- Adicionei uma imagem com animação na seção "Sobre mim"
